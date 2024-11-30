@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+  font-family: laleh;
+  src: url("./fonts/Lalezar-Regular a4fran3.woff2");
+}
+.eleDir{
+  direction: rtl;
+}
+.eleDirL{
+  direction: ltr;
+}
+.lalehF{
+  font-family: laleh;
+}
+.shadows{
+  box-shadow: 0px 10px 13px -7px #000000, -100px 5px 50px 49px rgba(0,0,0,0.61);
+}
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: white;
+  --_m: 
+    conic-gradient(#0000 10%,#000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  -webkit-mask-composite: source-out;
+          mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {to{transform: rotate(1turn)}}

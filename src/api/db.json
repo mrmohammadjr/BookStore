@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "c16640d8-3ebb-4ac5-89f9-54fe6e08dbac",
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "testtesttest",
+      "confirmPassword": "testtesttest",
+      "favorites": [
+        {
+          "id": "/works/OL224754W",
+          "cover": 1595420,
+          "title": "Forensic science"
+        },
+        {
+          "id": "/works/OL362427W",
+          "cover": 8257991,
+          "title": "Romeo and Juliet"
+        },
+        {
+          "id": "/works/OL468431W",
+          "cover": 10590366,
+          "title": "The Great Gatsby"
+        }
+      ],
+      "books": [
+        {
+          "id": "/works/OL66554W",
+          "price": 534,
+          "title": "Pride and Prejudice",
+          "cover": 14348537,
+          "quantity": 1
+        },
+        {
+          "id": "/works/OL468431W",
+          "price": 289,
+          "title": "The Great Gatsby",
+          "cover": 10590366,
+          "quantity": 1
+        },
+        {
+          "id": "/works/OL27776452W",
+          "price": 588,
+          "title": "The Importance of Being Earnest",
+          "cover": 1260453,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
